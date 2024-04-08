@@ -210,8 +210,8 @@ def encounter(player, enemy, mode):
                     os.system('cls')
                     continue
     if player.getHp() <= 0:
-        player.restoreHP()
-        enemy.restoreHP()
+        player.restoreHp()
+        enemy.restoreHp()
         return 0
     elif enemy.getHp() <= 0:
         player.restoreHp()
